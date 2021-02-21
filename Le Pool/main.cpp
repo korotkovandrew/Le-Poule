@@ -10,6 +10,7 @@ int main()
 {
 	RenderWindow window(VideoMode(SC_W, SC_H), "SFML Works!");
 
+	bool gameBegin = true;
 	// Main Loop
 	while (window.isOpen())
 	{
@@ -21,6 +22,12 @@ int main()
 		}
 		window.display();
 	}
+	window.clear(Color::White);
+
+	
+
+	// logic
+
 
 	return 0;
 }
